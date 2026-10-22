@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beer &amp; Golf</title>
+<meta name="apple-mobile-web-app-title" content="Beer &amp; Golf">
+<link rel="apple-touch-icon" href="beer_golf_icon_512.PNG">
+<style>
+body{margin:0;background:#000;color:#fff;font-family:-apple-system,sans-serif;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh}
+img{width:120px;border-radius:26px}
+a{margin-top:24px;padding:14px 28px;background:#1e5a45;color:#fff;border-radius:12px;font-size:20px;text-decoration:none}
+</style>
+</head>
+<body>
+<img src="beer_golf_icon_512.PNG" alt="">
+<a href="https://script.google.com/macros/s/AKfycbwUCZQDIOleTYgYzoGGICN6XM7NwKPvBN8N-MbOsGItPcrtjrGpObh9kTO1m_840l3M/exec">Open Beer &amp; Golf</a>
+<script>
+var APP="https://script.google.com/macros/s/AKfycbwUCZQDIOleTYgYzoGGICN6XM7NwKPvBN8N-MbOsGItPcrtjrGpObh9kTO1m_840l3M/exec";
+if (location.search.indexOf("go") > -1) { location.replace(APP); }
+else { history.replaceState(null, "", "?go"); }
+</script>
+</body>
+</html>
